@@ -1,0 +1,152 @@
+/* Title Section */
+.titleWrapper {
+    padding: 4.5em 1.5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.title {
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+/* Drives Section */
+.drives {
+    background-color: #e9d0ff;
+}
+.drivesWrapper {
+    padding: 4.5em 1.5em;
+} 
+.driveLink {
+    text-decoration: none;
+    display: block;
+    margin: 2.5em 0;
+}
+.driveLinkWrapper {
+    position: relative;
+}
+.driveLinkWrapper img {
+    width: 100%;
+    height: auto;
+}
+.driveLinkWrapper h2 {
+    margin: 0;
+    padding-top: 1.25em;
+    font-size: 1.25em;
+    font-weight: 900;
+    line-height: 1.3;
+}
+.driveLinkWrapper p {
+    padding: 28px 0 0;
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 1.8;
+}
+.driveLinkWrapper button {
+    display: inline-block;
+    margin: 2em 0;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #9013FE;
+    background-color: #9013FE;
+    color: #fff;
+    line-height: 1;
+    text-decoration: none;
+}
+.driveLinkWrapper button:hover {
+    background-color: transparent;
+    color: #9013FE;
+}
+/* Learn more Section */
+.learnMoreWrapper {
+    padding: 4.5em 1.5em;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.learnMoreWrapper h2 {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.learnMoreWrapper a {
+    display: inline-block;
+    margin: 2em 0.75em 0;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #9013FE;
+    background-color: transparent;
+    color: #9013FE;
+    line-height: 1;
+}
+.learnMoreWrapper a:last-child {
+    background-color: #9013FE;
+    color: #FFFFFF;
+}
+.learnMoreWrapper a svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.learnMoreWrapper a:hover {
+    background-color: #9013FE;
+    color: #FFFFFF;
+}
+.learnMoreWrapper a:hover:last-child {
+    background-color: transparent;
+    color: #9013FE;
+}
+.learnMoreWrapper a:hover svg {
+    transform: translateX(12px);
+}
+
+/*========================================================== 
+        Styles for tablets in portrait orientation
+==========================================================*/
+@media (min-width: 600px) {
+    
+}  
+
+/*========================================================== 
+Styles for tablets in landscape orientation and small desktops
+==========================================================*/
+@media (min-width: 768px) {
+    .title {
+        font-size: 2.5em;
+    }
+    .drivesWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5em;
+    }
+    .driveLinkWrapper img {
+        max-height: 274px;
+    }
+    .learnMoreWrapper h2 {
+        font-size: 2.25em;
+    }
+}  
+
+/*========================================================== 
+         Styles for large tablets and medium desktops
+==========================================================*/
+@media (min-width: 992px) {
+    .drivesWrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}  
+
+/*========================================================== 
+               Styles for large desktops
+==========================================================*/
+@media (min-width: 1200px) {
+    .drivesWrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

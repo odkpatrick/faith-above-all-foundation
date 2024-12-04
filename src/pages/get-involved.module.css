@@ -1,0 +1,225 @@
+/* Title Section */
+.titleWrapper {
+    padding: 4.5em 1.5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.title {
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+/* Donate Section */
+.donate {
+    background-color: #fdedd3;
+}
+.donateWrapper {
+    padding: 4.5em 1.5em;
+}
+.donateWrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.donateWrapper>div {
+    padding-top: 4.5em;
+    text-align: center;
+}
+.donateWrapper>div>div>div {
+    padding: 4.5em 1.5em 0;
+}
+.donateWrapper h2 {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.donateWrapper h3 {
+    margin: 0;
+    padding-bottom: 1.25em;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.mobileMoney {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5em 0;
+}
+.mobileMoney div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.mobileMoney h4 {
+    font-weight: 300;
+}
+.mobileMoney img {
+    display: block;
+    height: 48px;
+    width: auto;
+}
+.mobileMoney p {
+    font-weight: 600;
+}
+.paypalDetails,
+.bankDetails  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5em 0;
+}
+.paypalDetails img,
+.bankDetails svg {
+    display: block;
+    height: 48px;
+    width: auto;
+}
+.paypalDetails button,
+.bankDetails button {
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border: solid 2px #F5A623;
+    background-color: #F5A623;
+    color: #FFFFFF;
+    line-height: 1;
+}
+.paypalDetails button:hover,
+.bankDetails button:hover {
+    background-color: transparent;
+    color: #F5A623;
+}
+/* Volunteer section */
+.volunteer {
+    background-color: #FFFFFF;
+}
+.volunteerWrapper {
+    padding: 4.5em 1.5em;
+    text-align: center;
+}
+.volunteerWrapper h2 {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.volunteerWrapper p {
+    padding-bottom: 28px;
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 1.8;
+}
+.volunteerWrapper a {
+    display: inline-block;
+    margin: 2em 0.75em 0;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border: solid 2px #F5A623;
+    background-color: transparent;
+    color: #F5A623;
+    line-height: 1;
+}
+.volunteerWrapper a svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.volunteerWrapper a:hover {
+    background-color: #F5A623;
+    color: #FFFFFF;
+}
+.volunteerWrapper a:hover svg {
+    transform: translateX(12px);
+}
+
+/*========================================================== 
+        Styles for tablets in portrait orientation
+==========================================================*/
+@media (min-width: 600px) {
+    .mobileMoney {
+        width: 18em;
+        margin: 1.5em auto;
+    }
+    .paypalDetails,
+    .bankDetails {
+        width: 20em;
+        margin: 1.5em auto;
+    }
+}  
+
+/*========================================================== 
+Styles for tablets in landscape orientation and small desktops
+==========================================================*/
+@media (min-width: 768px) {
+    .title {
+        font-size: 2.5em;
+    }/*
+    .donateWrapper,*/
+    .volunteerWrapper {
+        max-width: 490px;
+        margin: 0 auto;
+    }
+    .donateWrapper h2,
+    .volunteerWrapper h2 {
+        font-size: 2.25em;
+    }
+}  
+
+/*========================================================== 
+         Styles for large tablets and medium desktops
+==========================================================*/
+@media (min-width: 992px) {
+    .donateWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5em;
+    }
+    .donateWrapper h2 {
+        padding: 0;
+    }
+    .donateWrapper img {
+        display: block;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .donateWrapper>div {
+        padding-top: 0;
+        text-align: left;
+    }
+    .donateWrapper>div>div>div {
+        padding: 2.5em 0 0;
+    }
+    .mobileMoney,
+    .paypalDetails,
+    .bankDetails {
+        margin: 1.5em auto 1.5em 0;
+    }
+    .paypalDetails img {
+        margin: 0;
+    }
+}  
+
+/*========================================================== 
+               Styles for large desktops
+==========================================================*/
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1440px) {
+    .donateWrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }    
+}

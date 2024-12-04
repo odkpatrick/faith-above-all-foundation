@@ -1,0 +1,72 @@
+form>div {
+    margin: 1.5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form>div label {
+
+}
+form>div input,
+form>div input:active,
+form>div input:focus,
+form>div input:focus-visible,
+form>div textarea {
+    width: 10em;
+    border-width: 1px;
+    border-radius: 0.5em;
+    border-color: #7ED321;
+    color: #7ED321;
+}
+/* Style for placeholder text */
+form>div input::placeholder {
+    color: #7ED321; /* Customize the color */
+    opacity: 1; /* Ensure full opacity, if needed */
+}
+
+/* For browser compatibility, you can include these vendor prefixes */
+form>div input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #7ED321;
+}
+
+form>div input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #7ED321;
+}
+
+form>div input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #7ED321;
+}
+
+form>div input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #7ED321;
+}
+
+form>div textarea {
+    height: 3.5em;
+    font-family: 'Lora';
+    font-size: 1em;
+    padding: .75em 1.5em;
+}
+.formBtn {
+    display: block;
+    margin: 2em auto 0;
+    border: 1px solid #7ED321;
+    border-radius: 0.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    line-height: 1;
+    background-color: #7ED321;
+    color: #FFFFFF;
+}
+.formBtn svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.formBtn:hover {
+    background-color: transparent;
+    color: #7ED321;
+}
+.formBtn:hover svg {
+    transform: translateX(12px);
+}

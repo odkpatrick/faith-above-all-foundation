@@ -1,0 +1,51 @@
+{
+  "name": "faith-above-all-foundation-website",
+  "private": true,
+  "description": "The official website for Faith Above All Foundation.",
+  "version": "0.1.0",
+  "author": "Patrick Odeke <patrickodekeofficial@gmail.com>",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "dotenv": "^16.4.5",
+    "gatsby": "^5.13.5",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "leaflet": "^1.9.4",
+    "nodemailer": "^6.9.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

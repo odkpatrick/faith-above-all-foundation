@@ -1,0 +1,319 @@
+/* Hero Section */
+.heroWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 4.5em;
+    color: #FFFFFF;
+}
+.heroText {
+    padding: 1.5em;
+}
+.title {
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.heroText p {
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 1.8;
+}
+.callToAction {
+    display: inline-block;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    border: solid 2px #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    line-height: 1;
+}
+.callToAction svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.callToAction:hover>span,
+.callToAction:hover svg {
+    transform: translateX(12px);
+}
+
+/* About Section */
+.about {
+    background-color: #FFFFFF;
+}
+.aboutWrapper {
+    padding: 4.5em 1.5em;
+    text-align: center;
+}
+.aboutTitle {
+    margin: 0;
+    padding-bottom: 1.5em; 
+    font-size: 1.5em; 
+    font-weight: 300;
+    line-height: 1.3;
+}
+.aboutBrief {
+    padding-bottom: 28px;
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 1.8;
+}
+.learnMore {
+    display: inline-block;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid #4A90E2;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    line-height: 1;
+}
+.learnMore svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.learnMore:hover {
+    background-color: transparent;
+    color: #4A90E2;
+}
+.learnMore:hover svg {
+    transform: translateX(12px);
+}
+
+/* Features Section */
+.featured {
+    background-color: #dbe9f9;
+}
+.featuredWrapper {
+    padding: 4.5em 1.5em;
+    padding-bottom: 4.5em;
+    text-align: center;
+}
+.featuredTitle {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+}
+.featuredWorkLink {
+    display: block;
+    text-decoration: none;
+    color: initial;
+    text-align: left;
+}
+.featuredWorkLink div {
+    padding: 1.5em 0;
+}
+.featuredWorkLink img {
+    width: 100%;
+    height: auto;
+    max-height: 340px;
+}
+.featuredWorkLink p {
+    padding: 1.5em 0;
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 1.8;
+}
+.featuredWorkLink a {
+    display: inline-block;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid #4A90E2;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    line-height: 1;
+}
+.featuredWorkLink a svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.featuredWorkLink a:hover {
+    border: 1px solid #4A90E2;
+    background-color: transparent;
+    color: #4A90E2;
+}
+.featuredWorkLink a:hover svg {
+    transform: translateX(12px);
+}
+.seeWork {
+    display: inline-block;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid #4A90E2;
+    background-color: transparent;
+    color: #4A90E2;
+    line-height: 1;
+}
+.seeWork svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.seeWork:hover svg {
+    transform: translateX(12px);
+}
+
+/* Donate Section */
+.donate {
+    background-color: #FFFFFF;
+}
+.donateWrapper {
+    padding: 4.5em 1.5em;
+    padding-bottom: 4.5em;
+}
+.donateTitle {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+}
+.donateOptions {
+    padding: 1.5em 0;
+}
+.donateOption {
+    margin: 1.75em auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 16em;
+    column-gap: 5em;
+}
+.donateOption svg {
+    width: 48px;
+    max-width: 72px;
+    height: 48px;
+    max-height: 72px;
+    opacity: 0.4;
+}
+.donateCallToActions {
+    text-align: center;
+}
+.donateCallToActions a {
+    display: inline-block;
+    margin: 2em 0.75em 0;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #4A90E2;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    line-height: 1;
+}
+.donateCallToActions a:first-child {
+    background-color: transparent;
+    color: #4A90E2;
+}
+.donateCallToActions a svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.donateCallToActions a:hover {
+    background-color: transparent;
+    color: #4A90E2;
+}
+.donateCallToActions a:first-child:hover {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+}
+.donateCallToActions a:hover svg {
+    transform: translateX(12px);
+}
+
+/*========================================================== 
+        Styles for tablets in portrait orientation
+==========================================================*/
+@media (min-width: 600px) {
+    
+}  
+
+/*========================================================== 
+Styles for tablets in landscape orientation and small desktops
+==========================================================*/
+@media (min-width: 768px) {
+    .heroWrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        margin: auto;
+    }
+    .heroText {
+        width: 45%;
+        max-width: 490px;
+        padding: 0;
+    }
+    .title {
+        font-size: 2.5em;
+    }
+    .aboutWrapper {
+        max-width: 64vw;
+        margin: 0 auto;
+    }
+    .aboutTitle,
+    .featuredTitle,
+    .donateTitle {
+        font-size: 2.25em;
+    }
+    .featuredLinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5em;
+        justify-items: center;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .featuredWorkLink img{
+        width: 338px;
+        height: 262px;
+    }
+    .featuredWorkLink p {
+        width: 338px;
+    }
+    .donateOptions {
+        display: flex;
+        flex-direction: row;
+        max-width: 540PX;
+        margin: 0 auto;
+    }
+    .donateOption {
+        flex-direction: column;
+    }
+}  
+
+/*========================================================== 
+         Styles for large tablets and medium desktops
+==========================================================*/
+@media (min-width: 992px) {
+    .featuredLinks {
+        width: 944PX;
+        margin: 0 auto;
+    }
+}  
+
+/*========================================================== 
+               Styles for large desktops
+==========================================================*/
+@media (min-width: 1200px) {
+    
+}

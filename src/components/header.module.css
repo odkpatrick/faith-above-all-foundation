@@ -1,0 +1,237 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 10000;
+    padding: 1.5em 1.5em 0;
+}
+
+.navigationContainer {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 111px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.5em;
+    text-align: left;
+}
+
+.navigationContainer.visible {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.navigationContainer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigationContainer nav ul li {
+    margin: 10px 0;
+}
+
+.navigationContainer nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding: 0.5625em;
+    font-size: 1em;
+    width: 10em;
+    margin-left: auto;
+}
+
+.navigationContainer nav ul li a:hover span:first-child,
+.navigationContainer nav ul li a:active span:first-child {
+    font-weight: 600;
+    transform: translateX(-12px);
+    color: #254871;
+}
+
+.navigationContainer nav ul li a:hover span:last-child,
+.navigationContainer nav ul li a:active span:last-child {
+    border-color: #254871;
+    background-color: #254871;
+    transform: scale(1, 1);
+}
+
+.navigationContainer nav ul li a.active {
+    font-weight: 600;
+    color: #254871;
+}
+
+.navigationContainer nav ul li a.active span:first-child {
+    transform: translateX(-12px);
+}
+
+.navigationContainer nav ul li a.active span:last-child {
+    border-color: #254871;
+    background-color: #254871;
+    transform: scale(1, 1);
+}
+
+.navigationContainer span {
+    display: block;
+    width: 10em;
+    margin: 1.5em 0 0 auto;
+    padding: 0.5625em;
+    color: #333; 
+}
+
+.navigationContainer span.linkSpan,
+.navigationContainer span.iconLinkSpan {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.navigationContainer span.linkSpan {
+    color: inherit;
+    width: 7.5em;
+}
+
+.navigationContainer span.iconLinkSpan {
+    border: solid 2px #FFFFFF;
+    width: 14px;
+    height: 14px;
+    transform: scale(0.75, 0.75);
+    border-radius: 50%;
+    top: 1px;
+    position: relative;
+    float: right;
+}
+
+.navigationContainer .navContact {
+    display: block;
+    padding: 1.5em 0.5625em 0;
+    font-size: 1em;
+    width: 10em;
+    margin: 1.5em 0 0 auto;
+    border-top: 1px solid #254871;
+}
+
+.navigationContainer .navContact span {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+.navigationContainer .navContact span:first-child {
+    float: left;
+    color: #34B0AE;
+}
+
+.navigationContainer .navContact span:last-child {
+    float: right;
+}
+
+.navContact svg, 
+.navContact span {
+    color: #FFFFFF;
+}
+.toggleBtn {
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+}
+
+.toggleIcon {
+    font-size: 2em;
+}
+
+/*========================================================== 
+        Styles for tablets in portrait orientation
+==========================================================*/
+@media (min-width: 600px) {
+    
+}  
+
+/*========================================================== 
+Styles for tablets in landscape orientation and small desktops
+==========================================================*/
+@media (min-width: 768px) {
+    
+}  
+
+/*========================================================== 
+         Styles for large tablets and medium desktops
+==========================================================*/
+@media (min-width: 992px) {
+    .navigationContainer {
+        transition: none;
+        transform: none;
+        visibility: visible;
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
+    .toggleBtn {
+        display: none;
+    }
+    .navigationContainer nav {
+        margin-right: 185px;
+    }
+    .navigationContainer nav ul li {
+        display: inline-block;
+        margin: 0;
+    }
+    .navigationContainer nav ul li a {
+        display: inline;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .navigationContainer nav ul li a span:first-child {
+        font-weight: 600;
+    }
+    .navigationContainer nav ul li a.active,
+    .navigationContainer nav ul li a:hover {
+        border: 1px solid #254871;
+        border-width: 0 0 1px;
+    }
+    .navigationContainer nav ul li a.active span:first-child,
+    .navigationContainer nav ul li a:hover span:first-child,
+    .navigationContainer nav ul li a:active span:first-child {
+        transform: none;
+    }
+    .navigationContainer span.linkSpan {
+        width: auto;
+    }
+    .navigationContainer span.iconLinkSpan {
+        display: none;
+    }
+    .navigationContainer .navContact {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        border-left: 1px solid #254871;
+        margin: 0;
+        padding: 1.5em 0 1.5em 1.5em;
+    }
+}  
+
+/*========================================================== 
+               Styles for large desktops
+==========================================================*/
+@media (min-width: 1200px) {}
+
+@media (min-width: 1600px) {
+    .header {
+        padding: 3em 3em 1.5em;
+    }
+}

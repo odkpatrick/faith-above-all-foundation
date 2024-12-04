@@ -1,0 +1,134 @@
+/* Title Section */
+.titleWrapper {
+    padding: 4.5em 1.5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.title {
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+/* Contact Section */
+.contactWrapper {
+    padding: 4.5em 1.5em;
+    background-color: #e5f6d3;
+}
+.contactWrapper>div {
+    padding-top: 4.5em;
+}
+.contactWrapper h2 {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;    
+}
+.contactWrapper img {
+    width: 100%;
+    height: auto;
+}
+.contactWrapper>div>div {
+    margin: 1.5em 0;
+}
+.contactWrapper h3 {
+    margin: 0;
+    padding-bottom: 1.25em;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.contactWrapper>div>div>div {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    column-gap: 2em;
+}
+.contactWrapper>div>div>div svg {
+    font-size: 1.1em;
+}
+/* Contact Section */
+.messageLocationWrapper {
+    background-color: #FFFFFF;
+}
+.messageLocationWrapper>div {
+    padding: 4.5em 1.5em;
+}
+.messageLocationWrapper h2 {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+}
+
+/*========================================================== 
+        Styles for tablets in portrait orientation
+==========================================================*/
+@media (min-width: 600px) {
+    
+}  
+
+/*========================================================== 
+Styles for tablets in landscape orientation and small desktops
+==========================================================*/
+@media (min-width: 768px) {
+    .title {
+        font-size: 2.5em;
+    }
+    .contactWrapper img {
+        display: block;
+        max-width: 490px;
+        margin: 0 auto;
+    }    
+    .contactWrapper>div,
+    .messageLocationWrapper>div {
+        max-width: 490px;
+        margin: 0 auto;
+    }
+    .contactWrapper h2,
+    .messageLocationWrapper h2 {
+        font-size: 2.25em;
+    }
+}  
+
+/*========================================================== 
+         Styles for large tablets and medium desktops
+==========================================================*/
+@media (min-width: 992px) {
+    .contactWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5em;
+    }
+    .contactWrapper img {
+        max-width: 720px;
+    }
+    .contactWrapper>div {
+        padding-top: 0;
+        text-align: left;
+        width: 50%;
+        max-width: 64vw;
+    }
+    .messageLocationWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .messageLocationWrapper>div {
+        width: 50%;
+    }
+}  
+
+/*========================================================== 
+               Styles for large desktops
+==========================================================*/
+@media (min-width: 1200px) {
+    
+}
+

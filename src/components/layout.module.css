@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.main {
+  padding-top: 8em;
+}
+h1,
+h2,
+h3,
+h4,
+a,
+button,
+input {
+  font-family: "Lora", serif;
+}
+h1 {
+  font-weight: 48;
+}
+
+@media (min-width: 1600px) {
+    .main {
+      padding-top: 11em;
+    }
+}

@@ -1,0 +1,360 @@
+/* Title Section */
+.titleWrapper {
+    padding: 4.5em 1.5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.title {
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+/* About Section */
+.about {
+    background-color: #FFFFFF;
+}
+.aboutWrapper {
+    padding: 4.5em 1.5em;
+}
+.aboutImgWrapper img {
+    width: 100%;
+}
+.aboutContent {
+    padding-top: 4.5em;
+    text-align: center;
+}
+.aboutContent a {
+    display: inline-block;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid #50E3C2;
+    color: #50E3C2;
+    text-decoration: none;
+    line-height: 1;
+}
+.aboutContent a svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.aboutContent a:hover {
+    background-color: #50E3C2;
+    color: #FFFFFF;
+}
+.aboutContent a:hover svg {
+    transform: translateX(12px);
+}
+.aboutContent h2 {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.aboutContent p {
+    padding-bottom: 28px;
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 1.8;
+}
+/* Team&Partners Section */
+.teamAndPartners {
+    padding: 4.5em 1.5em;
+    text-align: center;
+    background-color: #dcf9f3;
+}
+.teamWrapper h2,
+.partnersWrapper h2 {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.teamMembersWrapper {
+    padding-top: 1.5em;
+}
+.teamMember {
+    position: relative;
+    width: 210px;
+    margin: 5em auto;
+}
+.teamMember img {
+    width: 90%;
+    height: 240px;
+    max-height: 280px;
+    border-radius: 2em;
+    box-shadow: 2px 2px 4px 1px #50E3C2;
+    margin: auto;
+}
+.teamMember div {
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -2.5em;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    opacity: 0.875;
+}
+.teamMember h3 {
+    margin: 0;
+    font-size: 0.675em;      
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: normal;
+    opacity: 0.8;
+}
+.teamMember p {
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: "Lora", serif;
+    text-transform: capitalize;
+}
+.teamWrapper a {
+    display: inline-block;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid #50E3C2;
+    color: #50E3C2;
+    text-decoration: none;
+    line-height: 1;
+}
+.teamWrapper a:hover {
+    background-color: #50E3C2;
+    color: #FFFFFF;
+}
+.teamWrapper a svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.teamWrapper a:hover svg {
+    transform: translateX(12px);
+}
+.partnersWrapper {
+    padding-top: 4.5em;
+    text-align: center;
+}
+.partnersWrapper div {
+    padding: 1.5em 0;
+} 
+.sponsor img {
+    width: 140px;
+    height: auto;
+    max-height: 192px;
+}
+.sponsor p {
+    margin: 0;
+    padding-top: 1.25em;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.sponsor a {
+    display: inline-block;
+    margin: 2em 0.75em 0;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #50E3C2;
+    background-color: #50E3C2;
+    color: #fff;
+    line-height: 1;
+    text-decoration: none;
+}
+.sponsor a svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.sponsor a:hover {
+    background-color: transparent;
+    border: 1px solid #50E3C2;
+    color: #50E3C2;
+}
+.sponsor a:hover svg {
+    transform: translateX(12px);
+}
+/* Map&Contact Section */
+.mapContact {
+    background-color: #FFFFFF;
+}
+.contactWrapper,
+.mapWrapper {
+    padding: 4.5em 1.5em;
+}
+.contactWrapper h2,
+.mapWrapper h2 {
+    margin: 0;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+}
+.contactWrapper>div>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.75em;
+}
+.contactWrapper>div>div>svg {
+    color: #D3D6F1;
+}
+.contactWrapper p {
+    margin: 0;
+    padding: 1.25em 0;
+    font-size: 1.15em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.contactWrapper a {
+    display: inline-block;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: .75em 1.5em;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid #5F89B3;
+    text-decoration: none;
+    line-height: 1;
+    color: #5F89B3;
+}
+.contactWrapper a svg {
+    margin-left: 0.75em;
+    font-size: 1em;
+}
+.contactWrapper a:hover {
+    background-color: #5F89B3;
+    color: #FFFFFF;
+}
+
+/*========================================================== 
+        Styles for tablets in portrait orientation
+==========================================================*/
+@media (min-width: 600px) {
+    .aboutImgWrapper {
+        width: 80vw;
+        margin: 0 auto;
+        height: auto;
+    }
+}  
+
+/*========================================================== 
+Styles for tablets in landscape orientation and small desktops
+==========================================================*/
+@media (min-width: 768px) {
+    .title {
+        font-size: 2.5em;
+    }
+    .aboutContent {
+        max-width: 64vw;
+        margin: 0 auto;
+    }
+    .aboutContent h2,
+    .teamWrapper h2,
+    .partnersWrapper h2 {
+        font-size: 2.25em;
+    }
+    .teamMembersWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-column-gap: 0.5em;
+        width: 580px;
+        margin: 0 auto;
+    }
+    .partnersWrapper>div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: end;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .sponsor img {
+        height: 140px;
+    }
+    .sponsor p {
+        font-size: 12px;
+    }
+    .contactWrapper>div {
+        max-width: 64vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+}  
+
+/*========================================================== 
+         Styles for large tablets and medium desktops
+==========================================================*/
+@media (min-width: 992px) {
+    .aboutWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5em;
+    }
+    .aboutImgWrapper {
+        width: 50vw;
+    }
+    .aboutContent {
+        text-align: left;
+        padding-top: 0;
+    }
+    .teamMembersWrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 870px;
+        margin: 0 auto;
+    }
+    .mapContactWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .contactWrapper,
+    .mapWrapper {
+        width: 50%;
+    }
+    .contactWrapper h2,
+    .mapWrapper h2 {
+        text-align: left;
+    }
+    .contactWrapper>div {
+        text-align: left;
+    }
+}  
+
+/*========================================================== 
+               Styles for large desktops
+==========================================================*/
+@media (min-width: 1200px) {
+    .mapContactWrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }    
+}
+
+@media (min-width: 1440px) {
+    .aboutWrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .aboutImgWrapper {
+        max-width: 720px;   
+    }    
+}
