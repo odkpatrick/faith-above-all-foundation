@@ -17,6 +17,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     {
+      resolve: "gatsby-plugin-no-ssr",
+      options: {
+        componentPaths: ["/path-to-your-map-component"],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
