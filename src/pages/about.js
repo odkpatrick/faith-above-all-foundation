@@ -22,29 +22,14 @@ const TeamMember = (props) => {
 const Team = () => {
     const members = [
         {
-            mPosition: "Country Director & Head Of Programs",
-            mName: "Stella Nambabubye",
-            imgSrc: "/team/Country Director & Head of Programs/IMG-20240628-WA0005~2.jpg"
-        },
-        {
-            mPosition: "Director Of Community Engagement",
-            mName: "Atim Diana",
-            imgSrc: "/team/Director Community Engagement/IMG-20240628-WA0006.jpg"
-        },
-        {
-            mPosition: "Director Of Communication",
-            mName: "Angella Nassimbwa",
-            imgSrc: "/team/Director of Communication/IMG-20240709-WA0001.jpg"
-        },
-        {
-            mPosition: "Director Of Welfare & Hospitality",
-            mName: "Joanita Senfuma",
-            imgSrc: "/team/Director of Welfare and Hospitality/IMG-20240708-WA0005.jpg"
-        },
-        {
             mPosition: "Executive Director",
             mName: "Ann Iga",
             imgSrc: "/team/Executive Director/Screenshot_20240709-014108~2.png"
+        },
+        {
+            mPosition: "Country Director & Head Of Programs",
+            mName: "Stella Nambabubye",
+            imgSrc: "/team/Country Director & Head of Programs/IMG-20240628-WA0005~2.jpg"
         },
         {
             mPosition: "Head Of Finance & Accounting",
@@ -57,14 +42,29 @@ const Team = () => {
             imgSrc: "/team/Operations and human resource Director/IMG-20240627-WA0004.jpg"
         },
         {
-            mPosition: "Social Media Manager",
-            mName: "Nasuuna Gloria",
-            imgSrc: "/team/Social Media Manager/IMG-20240703-WA0002.jpg"
+            mPosition: "Director Of Community Engagement",
+            mName: "Atim Diana",
+            imgSrc: "/team/Director Community Engagement/IMG-20240628-WA0006.jpg"
+        },
+        {
+            mPosition: "Director Of Communications",
+            mName: "Angella Nassimbwa",
+            imgSrc: "/team/Director of Communication/IMG-20240709-WA0001.jpg"
+        },
+        {
+            mPosition: "Director Of Welfare & Hospitality",
+            mName: "Joanita Senfuma",
+            imgSrc: "/team/Director of Welfare and Hospitality/IMG-20240708-WA0005.jpg"
         },
         {
             mPosition: "Volunteer & S.S Manager",
             mName: "Anna Nabanoba",
             imgSrc: "/team/Volunteer and social services Manager/IMG-20240630-WA0001.jpg"
+        },
+        {
+            mPosition: "Social Media Manager",
+            mName: "Nasuuna Gloria",
+            imgSrc: "/team/Social Media Manager/IMG-20240703-WA0002.jpg"
         }
     ]
 
